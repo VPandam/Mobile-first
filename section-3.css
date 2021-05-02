@@ -71,10 +71,14 @@ html{
 
 .section-3-cards-container {
     text-align: left;
-    padding: 18px 16px;
+    height: auto;
+}
+.product-detail--card{
     width: 288px;
     height: 152px;
     background-color: #282623;
+    padding: 18px 16px;
+    margin-bottom: 16px;
 }
 
 .clock-icon {
@@ -82,6 +86,36 @@ html{
     width: 20px;
     height: 20px;
     background-image: url(./assets/icons/clock.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eye-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/eye.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tick-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/check-circle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dollar-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/dollar-sign.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
