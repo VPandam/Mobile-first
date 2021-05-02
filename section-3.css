@@ -1,0 +1,107 @@
+:root{
+    --bitcoin-orange:#F7931A;
+    --soft-orange:#FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.section-3 {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color:var(--warm-black);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.section-3-icon{
+    position: absolute;
+    top: -11px;
+    width: 40px;
+    height: 25px;
+    background-image: url(./assets/icons/batata.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.section-3 div{
+    margin-top: 50px;
+    width: 90%;
+    font-family: 'DM Sans', sans-serif;
+    min-width: 288 px;
+    height: auto;
+}
+
+.section-3 div h2{
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    }
+
+.section-3 .section-3-second-title{
+    margin-top: 20px;
+    margin-bottom: 32px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.section-3-cards-container {
+    text-align: left;
+    padding: 18px 16px;
+    width: 288px;
+    height: 152px;
+    background-color: #282623;
+}
+
+.clock-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/clock.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-3-cards-container .card-title {
+    margin-top: 12px;
+    display: block;
+    color: var(--just-white);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+.card-body {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+    margin-bottom: 5px;
+}
