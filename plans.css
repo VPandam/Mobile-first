@@ -22,13 +22,19 @@ html{
 
 .section-4 {
     width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
     height: auto;
     background-color: var(--off-white);
 }
 
 .section-4-text {
     text-align: center;
+    min-width: 288px;
+    height: auto;
+    padding: 0px 10px;
     padding-top: 64px;
+    margin: 0 auto;
 }
 
 .section-4-text h2 {
@@ -40,6 +46,7 @@ html{
 
 .section-4-text p{
     margin-top: 24px;
+    padding: 0px 2px;
     font-weight: 500;
     line-height: 1.8rem;
     font-size: 1.4rem;
@@ -48,15 +55,28 @@ html{
 }
 
 .section-4-cards-slider{
-   
+    margin-top: 50px;
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap: 10px;
 }
-.section-4-card-PagoAnual{
-    width: 190px;
+.section-4-card{
+    min-width: 190px;
+    max-width: 300px;
+    width: 59%;
     height: 247px;
     background-color: var(--just-white);
-    margin-top: 50px;
+    
+    scroll-snap-align: center;
+
     margin: 0 auto;
     text-align: center;
+    margin-top: 50px;
+
+    
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 8px;
     position: relative;
@@ -65,7 +85,7 @@ html{
     justify-content: center;
 }
 
-.section-4-card-PagoAnual > p{
+.section-4-card .Recomendado{
     padding: 8px;
     background-color: #F7931A;
     border-radius: 8px;
@@ -82,17 +102,17 @@ html{
 
 }
 
-.section-4-card-PagoAnual div{
+.section-4-card div{
     margin-top: 31px;
 }
 
-.section-4-card-PagoAnual div h3{
+.section-4-card div h3{
     font-weight: 550;
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
 
-.section-4-card-PagoAnual div h2{
+.section-4-card div h2{
     margin-top: 8px;
     font-weight: bold;
     font-size: 52px;
@@ -100,17 +120,17 @@ html{
     font-family: "Inter", sans-serif;
 }
 
-.section-4-card-PagoAnual div span{
+.section-4-card div span{
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     font-family: "Inter", sans-serif;
     position: relative;
-    top: -25px;
     right: 3px;
+    vertical-align: 28px;
 }
 
-.section-4-card-PagoAnual div p{
+.section-4-card div p{
     font-family: "Inter", sans-serif;
     width: 158px;
     font-weight: 500;
@@ -120,13 +140,13 @@ html{
     margin-top: 16px;
 }
 
-.section-4-card-PagoAnual div button{
+.section-4-card div button{
     width: 151px;
     height: 48px;
+    margin-top: 16px;
+
     border: 2px solid #F7931A;
     border-radius: 4px;
-
-    margin-top: 16px;
 
     font-size: 14px;
     line-height: 18px;
@@ -140,7 +160,7 @@ html{
     padding: 12px 16px;
 }
 
-.section-4-card-PagoAnual div button span{
+.section-4-card div button span{
     
     background-image: url(./assets/icons/orange-right-arrow.svg);
     width: 22px;
