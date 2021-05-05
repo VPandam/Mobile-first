@@ -1,0 +1,55 @@
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.section-1{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.container-image {
+    width: 195px;
+    height: 195px;
+    background-image: url(./assets/img/Bitcoin.svg);
+    margin-top: 59px;
+}
+
+.section-1-text{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin-top: 40px;
+}
+
+.section-1-text h2{
+    font-size: 2.4rem;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    
+}
+
+.section-1-text p{
+    margin-top: 24px;
+    margin-bottom: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #757575;
+
+}
