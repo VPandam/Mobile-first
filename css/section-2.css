@@ -1,13 +1,25 @@
 
+.table-section{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    padding: 0px 20px;
+    gap: 30px;
+
+}
 .table-container-coins{
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 325px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+    position: relative;
     
 }
+
 
 .monedas-title{
     font-size: 1.8rem;
@@ -68,7 +80,7 @@
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(./assets/icons/trending-down.svg);
+    background-image: url(../assets/icons/trending-down.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +91,7 @@
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(./assets/icons/trending-up.svg);
+    background-image: url(../assets/icons/trending-up.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,7 +101,7 @@
     width: 190px;
     height: 30px;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 55px;
     padding: 8px;
     color:#282623;
     background-color:var(--soft-orange);
@@ -104,6 +116,7 @@
 }
 
 .table-container-comissions{
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
@@ -154,7 +167,7 @@
     width: 190px;
     height: 30px;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 55px;
     padding: 8px;
     color:#282623;
     background-color:var(--soft-blue);

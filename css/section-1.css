@@ -21,7 +21,7 @@ main{
 .container-image {
     width: 195px;
     height: 195px;
-    background-image: url(./assets/img/Bitcoin.svg);
+    background-image: url(../assets/img/Bitcoin.svg);
     margin-top: 59px;
 }
 
