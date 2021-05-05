@@ -5,6 +5,8 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     padding: 0px 20px;
+    max-width: 730px;
+    margin: 0 auto;
     gap: 30px;
 
 }

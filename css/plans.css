@@ -56,6 +56,8 @@ html{
 .section-4-cards-slider{
     display: flex;
     height: 316px;
+    max-width: 650px;
+    margin: 0 auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -63,7 +65,7 @@ html{
 }
 .section-4-card{
     min-width: 190px;
-    max-width: 300px;
+    max-width: 200px;
     width: 59%;
     height: 247px;
     background-color: var(--just-white);
